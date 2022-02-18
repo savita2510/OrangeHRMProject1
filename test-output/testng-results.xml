@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" ignored="0" total="7" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="225318" started-at="2022-02-16T01:09:42Z" finished-at="2022-02-16T01:13:27Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="ApplicationTest.VerifyApplicationHeader()[pri:2, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationHeader" class="com.application.test.ApplicationTest"/>
+        <method signature="ApplicationTest.VerifyApplicationLogin(java.lang.String, java.lang.String)[pri:3, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationLogin" class="com.application.test.ApplicationTest"/>
+        <method signature="ApplicationTest.VerifyApplicationLogout(java.lang.String, java.lang.String)[pri:3, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationLogout" class="com.application.test.ApplicationTest"/>
+        <method signature="ApplicationTest.VerifyApplicationTitle()[pri:1, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationTitle" class="com.application.test.ApplicationTest"/>
+        <method signature="ApplicationTest.VerifyForgotPasswordFeature()[pri:4, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyForgotPasswordFeature" class="com.application.test.ApplicationTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="ApplicationTest.VerifyApplicationTitle()[pri:1, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationTitle" class="com.application.test.ApplicationTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="ApplicationTest.VerifyApplicationTitle()[pri:1, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationTitle" class="com.application.test.ApplicationTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="225318" started-at="2022-02-16T01:09:42Z" finished-at="2022-02-16T01:13:27Z">
+      <class name="com.application.test.ApplicationTest">
+        <test-method status="PASS" signature="generateReort()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="generateReort" is-config="true" duration-ms="915" started-at="2022-02-16T01:09:41Z" finished-at="2022-02-16T01:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReort -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="startBrowser" is-config="true" duration-ms="28185" started-at="2022-02-16T01:09:42Z" finished-at="2022-02-16T01:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="VerifyApplicationTitle()[pri:1, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationTitle" duration-ms="8845" started-at="2022-02-16T01:10:10Z" finished-at="2022-02-16T01:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplicationTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="closeBrowser" is-config="true" duration-ms="2258" started-at="2022-02-16T01:10:19Z" finished-at="2022-02-16T01:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="startBrowser" is-config="true" duration-ms="10520" started-at="2022-02-16T01:10:22Z" finished-at="2022-02-16T01:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="VerifyApplicationHeader()[pri:2, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationHeader" duration-ms="6978" started-at="2022-02-16T01:10:32Z" finished-at="2022-02-16T01:10:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplicationHeader -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="closeBrowser" is-config="true" duration-ms="1400" started-at="2022-02-16T01:10:39Z" finished-at="2022-02-16T01:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="startBrowser" is-config="true" duration-ms="10116" started-at="2022-02-16T01:10:44Z" finished-at="2022-02-16T01:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="VerifyApplicationLogin(java.lang.String, java.lang.String)[pri:3, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationLogin" duration-ms="27879" started-at="2022-02-16T01:10:54Z" data-provider="logindata" finished-at="2022-02-16T01:11:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplicationLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="closeBrowser" is-config="true" duration-ms="1228" started-at="2022-02-16T01:11:22Z" finished-at="2022-02-16T01:11:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="startBrowser" is-config="true" duration-ms="10779" started-at="2022-02-16T01:11:23Z" finished-at="2022-02-16T01:11:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="SKIP" signature="VerifyApplicationLogin(java.lang.String, java.lang.String)[pri:3, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationLogin" duration-ms="22372" started-at="2022-02-16T01:11:34Z" data-provider="logindata" finished-at="2022-02-16T01:11:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login is not successful]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login is not successful
+at org.junit.Assert.fail(Assert.java:88)
+at com.application.pages.LoginPage.VerifySuccessfulLogin(LoginPage.java:109)
+at com.application.test.ApplicationTest.VerifyApplicationLogin(ApplicationTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplicationLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="closeBrowser" is-config="true" duration-ms="1403" started-at="2022-02-16T01:11:56Z" finished-at="2022-02-16T01:11:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="startBrowser" is-config="true" duration-ms="12024" started-at="2022-02-16T01:11:58Z" finished-at="2022-02-16T01:12:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="FAIL" signature="VerifyApplicationLogin(java.lang.String, java.lang.String)[pri:3, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationLogin" duration-ms="23132" started-at="2022-02-16T01:12:10Z" data-provider="logindata" finished-at="2022-02-16T01:12:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcd123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login is not successful]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login is not successful
+at org.junit.Assert.fail(Assert.java:88)
+at com.application.pages.LoginPage.VerifySuccessfulLogin(LoginPage.java:109)
+at com.application.test.ApplicationTest.VerifyApplicationLogin(ApplicationTest.java:42)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplicationLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="closeBrowser" is-config="true" duration-ms="2025" started-at="2022-02-16T01:12:33Z" finished-at="2022-02-16T01:12:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="startBrowser" is-config="true" duration-ms="11478" started-at="2022-02-16T01:12:35Z" finished-at="2022-02-16T01:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="VerifyApplicationLogout(java.lang.String, java.lang.String)[pri:3, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyApplicationLogout" duration-ms="21275" started-at="2022-02-16T01:12:47Z" data-provider="logoutdata" finished-at="2022-02-16T01:13:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyApplicationLogout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="closeBrowser" is-config="true" duration-ms="1282" started-at="2022-02-16T01:13:08Z" finished-at="2022-02-16T01:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="startBrowser" is-config="true" duration-ms="8510" started-at="2022-02-16T01:13:09Z" finished-at="2022-02-16T01:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="VerifyForgotPasswordFeature()[pri:4, instance:com.application.test.ApplicationTest@754ba872]" name="VerifyForgotPasswordFeature" duration-ms="8197" started-at="2022-02-16T01:13:18Z" finished-at="2022-02-16T01:13:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyForgotPasswordFeature -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.application.test.ApplicationTest@754ba872]" name="closeBrowser" is-config="true" duration-ms="1519" started-at="2022-02-16T01:13:26Z" finished-at="2022-02-16T01:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.application.test.ApplicationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
